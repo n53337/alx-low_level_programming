@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	printf("%ld byte(s)\n", sizeof(char));	
+	printf("%ld Size of a char: \n", sizeof(char));	
 	printf("%ld byte(s)\n", sizeof(int));	
 	printf("%ld byte(s)\n", sizeof(long int));	
 	printf("%ld byte(s)\n", sizeof(long long int));	
