@@ -2,18 +2,16 @@
 
 /**
  *_abs-prints the absolute value of an integer.
- *@a:calculate absolute value.
+ *@n:calculate absolute value.
  *Return:abs
  *
  */
-int _abs(int abs)
-{
-	int num = abs;
 
-	if (num < 0)
+int _abs(int n)
+{
+	if (n >= 0)
 	{
-		num = num * (-1);
+		return (n);
 	}
-	int absolute = num;
-	return (absolute);
+	return (-n);
 }
